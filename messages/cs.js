@@ -97,6 +97,10 @@ export default [
     "defaultMessage": "Úkoly",
   },
   {
+    "id": "app.links.shoplist",
+    "defaultMessage": "Nákupní seznam",
+  },
+  {
     "id": "auth.email.emailLegend",
     "defaultMessage": "Email",
   },
