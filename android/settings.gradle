@@ -1,4 +1,4 @@
-rootProject.name = 'Este'
+rootProject.name = 'Shoploid'
 
 include ':app'
 include ':react-native-vector-icons'

@@ -43,4 +43,4 @@ class Root extends Component {
   }
 }
 
-AppRegistry.registerComponent('Este', () => Root);
+AppRegistry.registerComponent('Shoploid', () => Root);
