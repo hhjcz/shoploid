@@ -4,6 +4,7 @@ import Me from './me/MePage.react';
 import Offline from './offline/OfflinePage.react';
 import SignIn from './auth/SignInPage.react';
 import Todos from './todos/TodosPage.react';
+import Shoplist from './shoplist/ShoplistPage.react'
 
 export default {
   home: { Page: Home },
@@ -12,4 +13,5 @@ export default {
   offline: { Page: Offline },
   signIn: { Page: SignIn },
   todos: { Page: Todos },
+  shoplist: { Page: Shoplist },
 };

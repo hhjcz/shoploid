@@ -30,6 +30,7 @@ class Menu extends Component {
     const { intl, onRouteChange, viewer } = this.props;
     const links = [
       'home',
+      'shoplist',
       'todos',
       'intl',
       'offline',

@@ -41,4 +41,8 @@ export default defineMessages({
     defaultMessage: 'Todos',
     id: 'app.links.todos',
   },
+  shoplist: {
+    defaultMessage: 'Shop List',
+    id: 'app.links.shoplist',
+  },
 });

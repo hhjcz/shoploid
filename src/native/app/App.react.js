@@ -63,6 +63,7 @@ class App extends Component {
       case routes.offline: return intl.formatMessage(linksMessages.offline);
       case routes.signIn: return intl.formatMessage(linksMessages.signIn);
       case routes.todos: return intl.formatMessage(linksMessages.todos);
+      case routes.shoplist: return intl.formatMessage(linksMessages.shoplist);
     }
     throw new Error('Route not found.');
   }
