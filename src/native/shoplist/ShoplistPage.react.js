@@ -1,7 +1,7 @@
 /** Created by hhj on 8/8/16. */
 import React, { PropTypes } from 'react'
 import { StyleSheet, View } from 'react-native'
-import { IconToggle, Icon }  from 'react-native-material-design'
+import { IconToggle, Icon } from 'react-native-material-design'
 import { CenteredContainer, Text } from '../app/components'
 
 const style = StyleSheet.create({
@@ -26,7 +26,7 @@ export default class ShoplistPage extends React.Component {
   render() {
     return (
       <View style={style.column}>
-        <View style={[style.row, { flex: 2 }]}>
+        <View style={[style.row]}>
           <IconToggle color="red300">
             <Icon name="golf-course" />
           </IconToggle>

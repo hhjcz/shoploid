@@ -3,11 +3,9 @@ import { Map } from 'immutable'
 import { Record } from '../transit'
 
 const InitialState = Record({
-  seznam: Map()
+  seznam: Map(),
 }, 'shoplist')
 
 export default function shoplistReducer(state = new InitialState, action) {
   return state
 }
-
-
